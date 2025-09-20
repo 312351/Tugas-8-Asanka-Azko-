@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { Roboto } from "next/font/google";
 import { Geist, Geist_Mono,Nunito } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 
 const roboto = Roboto({
