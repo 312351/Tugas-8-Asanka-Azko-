@@ -8,7 +8,7 @@ import { FiYoutube } from "react-icons/fi";
 import { useState } from "react";
 
 const Footer1 = () =>{
-    const [Open,SetOpen] = useState<String|null>(null)
+    const [Open,SetOpen] = useState<string|null>(null)
     return(
         <footer className="w-full min-h-[5vh] flex flex-col ">
             <div className="p-3 w-full min-h-[5vh] flex flex-col lg:flex-row items-center justify-between bg-slate-300 text-black gap-y-5">

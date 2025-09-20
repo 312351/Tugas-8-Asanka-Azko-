@@ -1,5 +1,4 @@
 import Header1 from "@/app/Shared/Header1"
-import { Header } from "next/dist/lib/load-custom-routes"
 import Video from "./video"
 import About from "./about"
 import InformationProduk from "./InformasionProduk"

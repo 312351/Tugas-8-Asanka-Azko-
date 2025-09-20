@@ -10,12 +10,13 @@ export default function FadeInDown({ children }: Props) {
   const domRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const node = domRef.current
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setIsVisible(true);
-          }
+          } 
         });
       },
       { threshold: 0.1 }
@@ -26,7 +27,7 @@ export default function FadeInDown({ children }: Props) {
     }
 
     return () => {
-      if (domRef.current) observer.unobserve(domRef.current);
+      if (node) observer.unobserve(node);
     };
   }, []);
 
