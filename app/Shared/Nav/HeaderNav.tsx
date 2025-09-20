@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Icon } from "@iconify/react"
 import { FiChevronDown, FiStar } from "react-icons/fi"
 import { BiSolidChevronRight } from "react-icons/bi"
 import { useState } from "react"
@@ -44,7 +45,7 @@ export default function NavHeader(){
                         </div>
                         <div className="w-full border-[1px] border-l-0 text-black p-5 flex flex-row justify-center items-center">
                             <div className="flex-col">
-                            
+                            <Icon icon="mdi:lightbulb-on-outline" className="w-6 h-6 text-red-500" />
                           <span className="w-full flex flex-col">
                             <p className="text-[15px] font-bold">AZKO Idea Explorer</p>
                             <p className="text-[13px] opacity-50">Rekomendasi solusi sesuai karaktermu</p>
