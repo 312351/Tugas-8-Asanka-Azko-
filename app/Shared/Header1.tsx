@@ -2,12 +2,10 @@
 import Link from "next/link";
 import { GrCatalog } from "react-icons/gr";
 import Marquee from "react-fast-marquee";
-import { BiMobile, BiPhone, BiUser } from "react-icons/bi";
+import { BiMobile, BiUser } from "react-icons/bi";
 import Image from "next/image";
-import { FiSearch,FiChevronDown } from "react-icons/fi";
-import { delay, hover, motion } from "framer-motion";
-import { useState,useRef,useEffect } from "react";
-import { AnimatePresence } from "framer-motion";
+import { FiSearch } from "react-icons/fi";
+import { useState,useEffect } from "react";
 import AnimatedButton from "./Button/button";
 import NavHeader from "./Nav/HeaderNav";
 
