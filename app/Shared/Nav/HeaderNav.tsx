@@ -1,11 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
-import { BsFillLightbulbFill, BsFillLightbulbOffFill, BsLightbulb ,} from "react-icons/bs"
 import { Icon } from "@iconify/react/dist/iconify.js"
-import { FiChevronDown, FiChevronRight, FiStar } from "react-icons/fi"
-import { BiSolidChevronDown, BiSolidChevronRight, BiSolidChevronRightCircle } from "react-icons/bi"
-import { FaChevronRight } from "react-icons/fa"
-import { CgChevronRight } from "react-icons/cg"
+import { FiChevronDown, FiStar } from "react-icons/fi"
+import { BiSolidChevronRight } from "react-icons/bi"
 import { useState } from "react"
 export default function NavHeader(){
     
