@@ -22,7 +22,7 @@ export default function Header1(){
     },[])
 
     return (
-        <header className={`w-full min-h-[15vh] z-50 fixed`}>
+        <header className={` ${isScroll} w-full min-h-[15vh] z-50 fixed`}>
             <div className="w-full h-[3vh] bg-[#ee5c1e] px-5 flex flex-row">
                 <div className="w-full min-h-[3vh] flex flex-row gap-x-3 justify-center items-center text-[10px] font-bold text-center">
                      <Marquee>
