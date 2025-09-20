@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Icon } from "@iconify/react/dist/iconify.js"
+import { Icon } from "@iconify/react"
 import { FiChevronDown, FiStar } from "react-icons/fi"
 import { BiSolidChevronRight } from "react-icons/bi"
 import { useState } from "react"
